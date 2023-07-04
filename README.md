@@ -16,3 +16,9 @@ The worker provides an API for inference. The API is set up using supervisor, an
 
 ## Serverless Handler
 The serverless handler (rp_handler.py) is a Python script that handles inference requests. It defines a function handler(event) that takes an inference request, runs the inference using the Stable Diffusion model, and returns the output.
+
+# credits
+Main credit goes to Generative Labs and the Runpod.io team. 
+Generative Labs Tutorial on setting up serverless runpod instances
+https://www.youtube.com/watch?v=ojwEOdj7iUI&t=215s
+https://github.com/generativelabs
